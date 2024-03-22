@@ -1,7 +1,6 @@
 def call() {
   node {
-      sh '''
-        git version
+      bat '''
         java -version
         mvn -version
       '''
