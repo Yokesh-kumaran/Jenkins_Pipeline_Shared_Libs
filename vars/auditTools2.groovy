@@ -1,6 +1,6 @@
 def call(Map config) {
     node {
-      bat "${config.message}"
+      echo "${config.message}"
      // bat '''
        // java -version
        // mvn -version
